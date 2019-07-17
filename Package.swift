@@ -13,8 +13,7 @@ let package = Package(
         .target(
             name: "RxGesture",
             dependencies: ["RxSwift", "RxCocoa"],
-            path: "Pod",
-            exclude: ["Pod/Classes/OSX"]
+            path: "Pod"
         )
     ]
 )
